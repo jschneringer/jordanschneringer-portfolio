@@ -6,21 +6,27 @@ body {
 
 }
 /* header */
-.header {
+#header {
   display: flex;
   flex: 1,0,auto;
   font-family: "Courier New", Courier, monospace;
   color: white;
   text-align: center;
+  align-items: start;
   border: 4px solid white;
   width: 100vw;
   height: 161px;
   background: url("https://cdn.pixabay.com/photo/2016/08/03/09/03/universe-1566159__340.jpg");
   background-size: cover;
 }
+#hero {
+    background-size: 100%;
+    margin-bottom: 100px;
+    ;
+}
+.stretch {
+    width: 100%;
 
-.header:hover {
-  background: url("https://piquebeyond.com/wp-content/uploads/2017/05/space-header.jpg");
 }
 /* navbar elements  */
 .topnav {
@@ -57,16 +63,27 @@ body {
   max-height: 300px;
   padding-left: 15%;
 }
-#aboutme {
+#seo {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 450px;
+    align-content: right;
+  }
 
-}
+  .seo {
+      align-content: left
+      ;
+  }
 main {
+  display: flex; 
   width: 1024px;
   margin: 15px auto 0;
   height: 300px;
   position: relative;
+  align-items: flex-start;
   top: 0px;
-  background-image: url("https://piquebeyond.com/wp-content/uploads/2017/05/space-header.jpg");
+  background-color: rgba(112, 61, 153, 0.472);
   border-style: groove;
   border-radius: 15px;
   padding: 15px;
@@ -84,8 +101,12 @@ h3 {
     padding-left: 15%;
     font-family: 'Courier New', Courier, monospace;
     font-size:larger;
-    color:white
+    color:white;
 
+}
+
+#columnheader {
+    text-align: center;
 }
 
 section {
@@ -109,12 +130,12 @@ section {
     padding: 0px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 11%;
     height: 150%;
     font-family: 'Courier New', Courier, monospace;
     background-color:rgba(95, 32, 147, 0.472);
     position: relative;
-    top: -703px;
+    top: -800px;
     font-size: large;
     font-weight: bold;
     color: white;
