@@ -12,7 +12,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   color: white;
   text-align: center;
-  align-items: start;
+  align-items: flex-end;
   border: 4px solid white;
   width: 100vw;
   height: 161px;
@@ -63,6 +63,7 @@ body {
   max-height: 300px;
   padding-left: 15%;
 }
+
 #seo {
     height: auto;
     width: auto;
@@ -71,25 +72,28 @@ body {
     align-content: right;
   }
 
-  .seo {
-      align-content: left
-      ;
+.containers {
+        display: flex; 
+        width: 1024px;
+        margin: 15px auto 0;
+        height: 300px;
+        position: relative;
+        align-items: flex-start;
+        top: 0px;
+        background-color: rgba(112, 61, 153, 0.472);
+        border-style: groove;
+        border-radius: 15px;
+        padding: 15px;
+        display: flex;
+        flex: 1;
+    
   }
-main {
-  display: flex; 
-  width: 1024px;
-  margin: 15px auto 0;
-  height: 300px;
-  position: relative;
-  align-items: flex-start;
-  top: 0px;
-  background-color: rgba(112, 61, 153, 0.472);
-  border-style: groove;
-  border-radius: 15px;
-  padding: 15px;
-  display: flex;
-  flex: 1;
-}
+
+
+
+.refactor {
+
+} 
 
 
 aside {
@@ -112,14 +116,13 @@ h3 {
 section {
   flex: 4 0 75%;
 }
-
-.main-text {
+p {
     margin-top: 100px;
     font-family: 'Courier New', Courier, monospace;
     font-weight:900;
     color: white;
-
 }
+
 .industryconcepts {
     display: flex;
     flex-wrap: wrap;
