@@ -5,6 +5,7 @@
 [https://github.com/jschneringer/horiseon-seo-refactor2/issues/1#issue-1244153752 ](https://github.com/jschneringer/jordanschneringer-portfolio/issues/1#issue-1250362682)
   <h2>Links</h2>
 https://jschneringer.github.io/jordanschneringer-portfolio/
+https://github.com/jschneringer/jordanschneringer-portfolio
   
  
   <h3>Technologies used: HTML and CSS </h3>
