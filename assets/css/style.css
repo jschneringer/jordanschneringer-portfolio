@@ -61,7 +61,7 @@ body {
   width: auto;
   max-width: 150px;
   max-height: 300px;
-  padding-left: 15%;
+  padding-left: 0%;
 }
 
 #seo {
@@ -89,10 +89,22 @@ body {
     
   }
 
+  .containers p {
+    padding: 0 110px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:900;
+    color: white;
+}
 
 
 .refactor {
-
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 300px;
+    
 } 
 
 
@@ -116,29 +128,24 @@ h3 {
 section {
   flex: 4 0 75%;
 }
-p {
-    margin-top: 100px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight:900;
-    color: white;
-}
+
 
 .industryconcepts {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    margin-right: 20px;
-    margin-top: 150px;
     padding: 0px;
     clear: both;
+    border: 2px groove white;
+    border-radius: 2%;
     float: right;
     width: 11%;
     height: 150%;
+    margin-top: -1220px;
     font-family: 'Courier New', Courier, monospace;
     background-color:rgba(95, 32, 147, 0.472);
     position: relative;
-    top: -800px;
     font-size: large;
     font-weight: bold;
     color: white;
